@@ -1,0 +1,451 @@
+/* This is just a Test for Me 
+and my future portfolio */
+/* By Anton Dobrynin city Kazan */
+
+body {
+    margin:0;
+    padding: 0;
+    width: 1366px;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+.main_background {
+    background: url(background_main.png) repeat 50% 50%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_menu_ul p {
+    display: flex;
+    align-items: center;
+    margin-right: 450px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.header_menu_ul {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    width: 1300px;
+    justify-content: flex-end;
+    margin-top: 20 px;
+}
+
+.header_menu_ul-li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 75px;
+}
+
+.li {
+    padding-right: 45px;
+    font-size: 16px;
+    color: #CCE0FE;
+}
+
+
+.header_menu_ul button {
+    border:none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 30px;
+    background: #FFB03A;
+}
+
+.header-main {
+    width: 1366px;
+}
+
+.header_main_button {
+    border:none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 30px;
+    background: #FFB03A;
+}
+
+.header_main-text h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.header_main-text p {
+    color: #fff;
+}
+
+.header_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 110px;
+}
+
+.header_main-img {
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+}
+
+.main {
+    width: 1366px;
+    margin-top: 50px;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 480px;
+
+}
+
+.main_text-plan {
+    font-size: 30px;
+    font-weight: none;
+    color: #0264FB;
+    text-align: center;
+    margin: 0;
+}
+
+.main_text-web {
+    font-size: 13px;
+    text-align: center;
+}
+
+/*  first card  */
+.main_card {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.main_card_first {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+    border: 0.8px solid rgba(197, 197, 197, 0.37);
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px 12px 10px 12px;
+}
+
+.main_card_first-text {
+    font-size: 17px;
+}
+
+.main_card_first-text-second {
+    font-size: 14px;
+}
+
+.main_card_first-text-four {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    color: #0264FB;
+}
+
+.main_card_first-button {
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+/* second card */
+
+.main_card_second {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+    border: 0.8px solid rgba(197, 197, 197, 0.37);
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px 12px 10px 12px;
+}
+
+.main_card_second-text {
+    font-size: 17px;
+}
+
+.main_card_second-text-second {
+    font-size: 14px;
+}
+
+.main_card_second-text-four {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    color: #0264FB;
+}
+
+.main_card_second-button {
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    margin-top: 20px;
+}  
+
+/*  third card */
+
+.main_card_third {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+    border: 0.8px solid rgba(197, 197, 197, 0.37);
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px 12px 10px 12px;
+}
+
+.main_card_third-text {
+    font-size: 17px;
+}
+
+.main_card_third-text-second {
+    font-size: 14px;
+}
+
+.main_card_third-text-four {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    color: #0264FB;
+}
+
+.main_card_third-button {
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    margin-top: 20px;
+} 
+
+/* four card */
+
+.main_card_four {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+    border: 0.8px solid rgba(197, 197, 197, 0.37);
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px 12px 10px 12px;
+    
+}
+
+.main_card_four-text {
+    font-size: 17px;
+}
+
+.main_card_four-text-second {
+    font-size: 14px;
+}
+
+.main_card_four-text-four {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    color: #0264FB;
+}
+
+.main_card_four-button {
+    border: none;
+    border-radius: 2px;
+    background: #fff;
+    margin-top: 20px;
+} 
+
+/* hover card */
+
+.main_card_first:hover {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+    border: 0.8px solid rgba(197, 197, 197, 0.37);
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px 12px 10px 12px;
+    background: #0264FB;
+    color: #fff;
+}
+
+.main_card_first:hover .main_card_first-text-four {
+    color: #fff;
+}
+
+.main_card_first:hover .link {
+    color: #fff;
+}
+
+.main_card_first-button:hover {
+    border: none;
+    border-radius: 2px;
+    background: #0264FB;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.main_card_second:hover {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+    border: 0.8px solid rgba(197, 197, 197, 0.37);
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px 12px 10px 12px;
+    background: #0264FB;
+    color: #fff;
+}
+
+.main_card_second:hover .main_card_second-text-four {
+    color: #fff;
+}
+
+.main_card_second:hover .link {
+    color: #fff;
+}
+
+.main_card_second-button:hover {
+    border: none;
+    border-radius: 2px;
+    background: #0264FB;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.main_card_third:hover {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+    border: 0.8px solid rgba(197, 197, 197, 0.37);
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px 12px 10px 12px;
+    background: #0264FB;
+    color: #fff;
+}
+
+.main_card_third:hover .main_card_third-text-four {
+    color: #fff;
+}
+
+.main_card_third:hover .link {
+    color: #fff;
+}
+
+.main_card_third-button:hover {
+    border: none;
+    border-radius: 2px;
+    background: #0264FB;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.main_card_four:hover {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 20px;
+    border: 0.8px solid rgba(197, 197, 197, 0.37);
+    border-radius: 2px;
+    width: 200px;
+    padding: 10px 12px 10px 12px;
+    background: #0264FB;
+    color: #fff;
+}
+
+.main_card_four:hover .main_card_four-text-four {
+    color: #fff;
+}
+
+.main_card_four:hover .link {
+    color: #fff;
+}
+
+.main_card_four-button:hover {
+    border: none;
+    border-radius: 2px;
+    background: #0264FB;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.contacts {
+    margin-left: 110px;
+}
+
+.contacts_first {
+    margin-right: 120px;
+}
+
+.contacts_first-text {
+    font-size: 23px;
+    color: #0264FB;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts_second {
+    display: flex;
+    text-align: center;
+}
+
+.contacts_second-mail {
+    margin-right: 55px;
+    margin-top: 10px;
+}
+
+.contacts_second-phone {
+    margin-right: 55px
+}
+
+.contacts_second-mail-text {
+    color: #0264FB;
+}
+
+.contacts_second-mail-email-text {
+    color: #BFC4CE;
+}
+
+.contacts_second-phone-text {
+    color: #0264FB;
+}
+
+.contacts_second-phone-number-text {
+    color: #BFC4CE;
+}
+
+.contacts_second-adress-text {
+    color: #0264FB;
+}
+
+.contacts_second-adress-number-text {
+    color: #BFC4CE;
+}
+
+.map {
+    margin-top: 100px;
+}
+
+
