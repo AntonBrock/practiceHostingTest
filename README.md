@@ -3,7 +3,7 @@ Thank you a lot for the open design: Yogesh Dhakal!
 
 **test**
 
-![Screenshot](scrHosting1.jpg)
-![Screenshot](scrHosting2.jpg)
-![Screenshot](scrHosting3.jpg)
+![Screenshot](scrHosting1.JPG)
+![Screenshot](scrHosting202.JPG)
+![Screenshot](srcHosting3.JPG)
 
